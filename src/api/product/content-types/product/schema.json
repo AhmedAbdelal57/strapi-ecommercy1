@@ -25,14 +25,18 @@
       "type": "decimal"
     },
     "banner": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "instantDelivery": {
+      "type": "boolean"
     }
   }
 }
